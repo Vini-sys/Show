@@ -75,7 +75,7 @@ main{
   
     
     padding: 20px;
-    width: 300px;
+    width: 400px;
  
     height: 500px;
    
@@ -91,7 +91,7 @@ main > h1{
     font-size: 4vh;
     padding: 10px;
     margin: 10px;
-    
+    text-align: center;
     
     
    
@@ -101,18 +101,22 @@ main > h1{
 
 nav{
     
-    width: 300px;
+    width: 400px;
     height: 400px;
     margin-top: 10px;
+    text-align: center;
+    align-items: center;
   
 }
 
 nav > a{
+
     display: flex;
     flex-direction: column;
+    text-align: center;
     color: white;
     padding: 20px;
-    text-align: center;
+   
     font-size: 3vh;
     
     box-shadow:  1px 1px 10px rgba(0, 0, 0, 0.377);
