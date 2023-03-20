@@ -14,9 +14,11 @@
 
 
 
-body{
+html, body{
     background-attachment: fixed;
     background-image: linear-gradient(to bottom, #0B1466, #2A3066);
+
+    height: 100%;
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,6 +39,7 @@ header{
     padding-left: 0px;
     background-color: rgba(0, 0, 107, 0.842);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.329);
+    font-size: 0.98rem;
     
 
 }
